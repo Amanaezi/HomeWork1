@@ -38,8 +38,7 @@ int main()
 				{
 					n = 0;
 				}
-			}
-			
+			}		
 		}
 
 		if (n > res)

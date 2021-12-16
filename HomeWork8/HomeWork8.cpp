@@ -1,10 +1,9 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
+using namespace std;
+
 #include <iostream>
 #include <string>
 #include <cstring>
-
-using namespace std;
-
 
 int main()
 {
@@ -13,12 +12,11 @@ int main()
 
 	char char_array[200];
 	strcpy(char_array, s.c_str());
-
 	char* ch = strtok(char_array, " ,.-!?");
+
 	int n = 0;
 	string res = ch;
 
-	
 	while (ch != NULL)
 	{
 		string str1 = ch;
